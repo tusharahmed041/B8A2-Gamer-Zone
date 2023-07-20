@@ -1,0 +1,374 @@
+ body{
+    margin: 0;
+    padding: 0;
+}
+.span{
+    color: #F948B2;
+}
+ .logo{
+    margin-left: 170px;
+    display: flex;
+    padding: 10px 0px 0px  0px;
+    font-weight: 700;
+    
+    
+}
+.logo img{
+    font-size: 25px;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    position: relative;
+    background-color: #fff;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05); 
+}
+
+header div{
+    float: left;
+}
+.nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 100px;
+    padding: 0px 20px 0px 20px;
+}
+.nav ul{
+    list-style: none;
+}
+.nav ul li{
+    float: left;
+    padding-right: 50px;
+    padding-top: 20px;
+    
+}
+.nav ul li a{
+    text-decoration: none;
+    color: #3C354F;
+    font-size: 20px;
+    font-weight: 700;
+}
+.header-icon{
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    
+}
+.header-icon li{
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+.icon-bar{
+    padding-bottom: 40px;
+}
+.icon-bar i{
+    padding-left: 10px;
+    color: #000000;
+    
+}
+
+ /* <!-- part 2 section start --> */
+
+section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-title, .header-content{
+    width: 50%;
+}
+.header-title{
+    margin-left: 230px;
+    margin-bottom: 120px;
+}
+.header-content {
+    padding-right: 160px;
+}
+.header-content img{
+    max-width: 100%;
+    height: auto;
+}
+h1{
+    font-size: 95px;
+    font-family: Work Sans;
+    line-height: normal;
+}
+.btn-sign{
+    background-color: #F948B2;
+    border-radius: 20px;
+    border: none;
+    padding: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.btn-go{
+    border-radius: 20px;
+    border: none;
+    background-color: aqua;
+    padding: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.goat{
+    margin-bottom: 10px;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.play{
+    font-size: 45px;
+    font-family: Work Sans;
+    text-transform: uppercase; 
+    padding: 0px 2px 2px 0px;
+}
+.para{
+    color: #534C64;
+    
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: lowercase
+}
+/* part 3 section start */
+
+main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.gamer-title img{
+    max-width: 100%;
+    height: auto;
+}
+.gamer-title, .gamer-content{
+    width: 50%;
+}
+.gamer-title {
+    padding-left: 150px;
+}
+.gamer-content{
+    margin-right: 50px;
+    margin-bottom: 100px;
+}
+.we{
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 48px;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: normal;
+}
+.para-title{
+    width: 520px;
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 18px;
+}
+.btn-know{
+    background-color: #F948B2;
+    border-radius: 20px;
+    border: none;
+    padding: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.unleash{
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+/* <!-- part 4 section start --> */
+
+.video-header{
+    color: #0B0223;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+}
+.video-para{
+    color: #534C64;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.video-container{
+    text-align: center;
+    
+}
+
+.video-bar{
+    display: flex;
+    background-color: #FFF;;
+    text-align: center;
+    
+    
+    
+}
+.gallery {
+    margin: 0 10px 10px 0;
+    border-radius: 16px;
+}
+/* part 5 section start */
+.header-down{
+    margin-left: 230px;
+    margin-bottom: 120px;
+}
+.down-title{
+    text-align: left;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    background-clip: text;
+    
+}
+.header-img-content {
+    padding-right: 160px;
+    padding-top: 80px;
+}
+.header-img-content2{
+    display: flex;
+    width: 200px;
+    padding: 40px;
+    position: relative;
+    bottom: 300px;
+    padding-right: 200px;
+    
+    border-radius: 800px;
+    
+}
+
+/* <!-- part 6 section start --> */
+
+.active{
+    margin: -100px;
+   
+}
+
+.game-icon{
+    display: flex;
+    
+    margin-top: 10px;
+    padding: 20px;
+    justify-content: space-around;
+
+}
+.game{
+    display: flex;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 40px;
+}
+.game-icon-up{
+    display: flex;
+    margin: 100px;
+    padding:10px 0px 0px 20px;
+    
+    justify-content: space-around;
+}
+.game-up{
+    display: flex;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 40px;
+    padding:50px;
+}
+/* part 6 section start */
+.footer-back{
+    background-color:  #0B0223;
+}
+.footer-logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+.footer-logo img {
+    width: 80px;
+    height: 50px;
+}
+.footer-content{
+    justify-content: center;
+}
+
+.footer-story ul{
+    display: inline-flex;
+    align-items: flex-start;
+    list-style: none;
+    padding: 10px;
+    gap: 60px;
+}
+.socialicon{
+    display: flex;
+    justify-content: center;
+}
+.socialicon a{
+    text-decoration: none;
+    padding: 10px;
+    margin: 20px;
+    font-size: 2em;
+    color: #ffffff;
+    
+    
+}
+.social-icon-text ul{
+    display: flex;
+    justify-content: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+}
+    
+.social-icon-text ul li{
+    color: #FFF;
+    margin: 2px;
+    list-style: none;
+    padding: 10px 0px 0px 0px;
+}
+.tarms ul{
+    display: flex;
+    justify-content: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+}
+    
+.tarms ul li{
+    color: #FFF;
+    margin: 8px;
+    list-style: none;
+    padding: 3px;
+}
+.end{
+
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 0px 0px 40px 20px;
+    
+}
