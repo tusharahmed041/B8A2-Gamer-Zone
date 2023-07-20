@@ -221,9 +221,10 @@ main{
     display: flex;
     background-color: #FFF;;
     text-align: center;
-    
-    
-    
+    margin: 30px 100px 30px 100px; 
+}
+.video-bar img{
+    width: 300px;
 }
 .gallery {
     margin: 0 10px 10px 0;
@@ -269,7 +270,7 @@ main{
 .game-icon{
     display: flex;
     
-    margin-top: 10px;
+    margin: 20px 140px;
     padding: 20px;
     justify-content: space-around;
 
@@ -282,7 +283,7 @@ main{
 .game-icon-up{
     display: flex;
     margin: 100px;
-    padding:10px 0px 0px 20px;
+    
     
     justify-content: space-around;
 }
